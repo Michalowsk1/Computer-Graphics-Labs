@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\src\context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\src\init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\src\input.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\src\monitor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\src\window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\src\win32_init.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\src\win32_monitor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\src\win32_time.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\src\win32_tls.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\src\win32_window.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\src\winmm_joystick.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\src\wgl_context.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\src\internal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\build\external\glfw-3.1.2\src\glfw_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW\glfw3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW\glfw3native.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\src\win32_platform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\src\win32_tls.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\src\winmm_joystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\src\wgl_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{03973A4B-B38A-3E48-AC27-E8195CDEC5E6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C2E93932-6502-3F83-8EE4-327F67F37D60}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
