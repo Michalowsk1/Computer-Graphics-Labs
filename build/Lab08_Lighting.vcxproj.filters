@@ -1,55 +1,55 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\Lab08_Lighting\Lab08_Lighting.cpp">
+    <ClCompile Include="D:\Computer Graphics\Computer-Graphics-Labs\Lab08_Lighting\Lab08_Lighting.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\common\maths.cpp">
+    <ClCompile Include="D:\Computer Graphics\Computer-Graphics-Labs\common\maths.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\common\camera.cpp">
+    <ClCompile Include="D:\Computer Graphics\Computer-Graphics-Labs\common\camera.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\common\model.cpp">
+    <ClCompile Include="D:\Computer Graphics\Computer-Graphics-Labs\common\model.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\common\shader.hpp">
+    <ClInclude Include="D:\Computer Graphics\Computer-Graphics-Labs\common\shader.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\common\texture.hpp">
+    <ClInclude Include="D:\Computer Graphics\Computer-Graphics-Labs\common\texture.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\common\stb_image.hpp">
+    <ClInclude Include="D:\Computer Graphics\Computer-Graphics-Labs\common\stb_image.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\common\maths.hpp">
+    <ClInclude Include="D:\Computer Graphics\Computer-Graphics-Labs\common\maths.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\common\camera.hpp">
+    <ClInclude Include="D:\Computer Graphics\Computer-Graphics-Labs\common\camera.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\common\model.hpp">
+    <ClInclude Include="D:\Computer Graphics\Computer-Graphics-Labs\common\model.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\CMakeLists.txt" />
+    <CustomBuild Include="D:\Computer Graphics\Computer-Graphics-Labs\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\Lab08_Lighting\vertexShader.glsl" />
-    <None Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\Lab08_Lighting\fragmentShader.glsl" />
-    <None Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\Lab08_Lighting\lightVertexShader.glsl" />
-    <None Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\Lab08_Lighting\lightFragmentShader.glsl" />
-    <None Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\Lab08_Lighting\multipleLightsFragmentShader.glsl" />
+    <None Include="D:\Computer Graphics\Computer-Graphics-Labs\Lab08_Lighting\vertexShader.glsl" />
+    <None Include="D:\Computer Graphics\Computer-Graphics-Labs\Lab08_Lighting\fragmentShader.glsl" />
+    <None Include="D:\Computer Graphics\Computer-Graphics-Labs\Lab08_Lighting\lightVertexShader.glsl" />
+    <None Include="D:\Computer Graphics\Computer-Graphics-Labs\Lab08_Lighting\lightFragmentShader.glsl" />
+    <None Include="D:\Computer Graphics\Computer-Graphics-Labs\Lab08_Lighting\multipleLightsFragmentShader.glsl" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{03973A4B-B38A-3E48-AC27-E8195CDEC5E6}</UniqueIdentifier>
+      <UniqueIdentifier>{5BC3B209-8BBF-3F08-B5A9-8E2873AA8348}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{C2E93932-6502-3F83-8EE4-327F67F37D60}</UniqueIdentifier>
+      <UniqueIdentifier>{350CC5A0-DF74-3AB4-9A04-4CD7038CF72A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

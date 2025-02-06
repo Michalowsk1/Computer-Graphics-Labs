@@ -1,9 +1,9 @@
-cd C:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs/Lab07_Moving_the_camera/
+cd D:/Computer Graphics/Computer-Graphics-Labs/Lab07_Moving_the_camera/
 set 
 
 if [%1]==[--debugger] (
 	SHIFT
 )
 
-"C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\build\RelWithDebInfo\Lab07_Moving_the_camera.exe"  
+"D:\Computer Graphics\Computer-Graphics-Labs\build\RelWithDebInfo\Lab07_Moving_the_camera.exe"  
 pause

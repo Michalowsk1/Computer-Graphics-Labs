@@ -3,30 +3,30 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommand>C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\build\Debug\Lab05_Transformations.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>D:\Computer Graphics\Computer-Graphics-Labs\build\Debug\Lab05_Transformations.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>C:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs/Lab05_Transformations/</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>D:/Computer Graphics/Computer-Graphics-Labs/Lab05_Transformations/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommand>C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\build\Release\Lab05_Transformations.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>D:\Computer Graphics\Computer-Graphics-Labs\build\Release\Lab05_Transformations.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>C:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs/Lab05_Transformations/</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>D:/Computer Graphics/Computer-Graphics-Labs/Lab05_Transformations/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommand>C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\build\MinSizeRel\Lab05_Transformations.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>D:\Computer Graphics\Computer-Graphics-Labs\build\MinSizeRel\Lab05_Transformations.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>C:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs/Lab05_Transformations/</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>D:/Computer Graphics/Computer-Graphics-Labs/Lab05_Transformations/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommand>C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\build\RelWithDebInfo\Lab05_Transformations.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>D:\Computer Graphics\Computer-Graphics-Labs\build\RelWithDebInfo\Lab05_Transformations.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>C:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs/Lab05_Transformations/</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>D:/Computer Graphics/Computer-Graphics-Labs/Lab05_Transformations/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
 
 </Project>

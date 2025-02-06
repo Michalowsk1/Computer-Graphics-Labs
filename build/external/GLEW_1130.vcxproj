@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{80FAE9D6-D5E6-31DA-A4D8-3E6046867238}</ProjectGuid>
+    <ProjectGuid>{C22A3E8B-2D82-3BCF-A339-7DA6CC7999A6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,36 +59,38 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\build\external\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Computer Graphics\Computer-Graphics-Labs\build\external\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GLEW_1130.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GLEW_1130</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\build\external\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Computer Graphics\Computer-Graphics-Labs\build\external\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GLEW_1130.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GLEW_1130</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\build\external\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Computer Graphics\Computer-Graphics-Labs\build\external\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GLEW_1130.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GLEW_1130</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\build\external\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Computer Graphics\Computer-Graphics-Labs\build\external\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GLEW_1130.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GLEW_1130</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;D:\Computer Graphics\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
       </ExceptionHandling>
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
@@ -97,10 +99,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;D:\Computer Graphics\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;D:\Computer Graphics\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -113,15 +115,18 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;D:\Computer Graphics\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>
       </ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
@@ -132,10 +137,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;D:\Computer Graphics\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;D:\Computer Graphics\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -148,15 +153,18 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;D:\Computer Graphics\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <ExceptionHandling>
       </ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
@@ -167,10 +175,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;D:\Computer Graphics\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;D:\Computer Graphics\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -183,16 +191,19 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;D:\Computer Graphics\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
       </ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SupportJustMyCode></SupportJustMyCode>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
@@ -201,10 +212,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;D:\Computer Graphics\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW;D:\Computer Graphics\Computer-Graphics-Labs\external\glew-1.13.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -216,11 +227,11 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\CMakeLists.txt">
+    <CustomBuild Include="D:\Computer Graphics\Computer-Graphics-Labs\external\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs/external/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Computer Graphics/Computer-Graphics-Labs/external/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs" "-BC:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs/build" --check-stamp-file "C:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs/build/external/CMakeFiles/generate.stamp"
+"D:\Computer Graphics\bin\cmake.exe" "-SD:/Computer Graphics/Computer-Graphics-Labs" "-BD:/Computer Graphics/Computer-Graphics-Labs/build" --check-stamp-file "D:/Computer Graphics/Computer-Graphics-Labs/build/external/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -229,11 +240,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\build\external\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Computer Graphics\Computer-Graphics-Labs\build\external\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs/external/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Computer Graphics/Computer-Graphics-Labs/external/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs" "-BC:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs/build" --check-stamp-file "C:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs/build/external/CMakeFiles/generate.stamp"
+"D:\Computer Graphics\bin\cmake.exe" "-SD:/Computer Graphics/Computer-Graphics-Labs" "-BD:/Computer Graphics/Computer-Graphics-Labs/build" --check-stamp-file "D:/Computer Graphics/Computer-Graphics-Labs/build/external/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -242,11 +253,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\build\external\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Computer Graphics\Computer-Graphics-Labs\build\external\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs/external/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Computer Graphics/Computer-Graphics-Labs/external/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs" "-BC:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs/build" --check-stamp-file "C:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs/build/external/CMakeFiles/generate.stamp"
+"D:\Computer Graphics\bin\cmake.exe" "-SD:/Computer Graphics/Computer-Graphics-Labs" "-BD:/Computer Graphics/Computer-Graphics-Labs/build" --check-stamp-file "D:/Computer Graphics/Computer-Graphics-Labs/build/external/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -255,11 +266,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\build\external\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Computer Graphics\Computer-Graphics-Labs\build\external\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs/external/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Computer Graphics/Computer-Graphics-Labs/external/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs" "-BC:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs/build" --check-stamp-file "C:/Users/23619282/OneDrive - MMU/Documents/GitHub/Computer-Graphics-Labs/build/external/CMakeFiles/generate.stamp"
+"D:\Computer Graphics\bin\cmake.exe" "-SD:/Computer Graphics/Computer-Graphics-Labs" "-BD:/Computer Graphics/Computer-Graphics-Labs/build" --check-stamp-file "D:/Computer Graphics/Computer-Graphics-Labs/build/external/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -268,16 +279,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\build\external\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Computer Graphics\Computer-Graphics-Labs\build\external\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\external\glew-1.13.0\src\glew.c" />
+    <ClCompile Include="D:\Computer Graphics\Computer-Graphics-Labs\external\glew-1.13.0\src\glew.c" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\build\ZERO_CHECK.vcxproj">
-      <Project>{2541BEF1-570F-3791-A2C9-7ADF6BBC0123}</Project>
+    <ProjectReference Include="D:\Computer Graphics\Computer-Graphics-Labs\build\ZERO_CHECK.vcxproj">
+      <Project>{34E5D7B1-554A-3BC1-BAF2-DAA80165A78E}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

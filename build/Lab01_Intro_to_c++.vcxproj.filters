@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\Lab01_Intro_to_c++\Lab01_Intro_to_c++.cpp">
+    <ClCompile Include="D:\Computer Graphics\Computer-Graphics-Labs\Lab01_Intro_to_c++\Lab01_Intro_to_c++.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\23619282\OneDrive - MMU\Documents\GitHub\Computer-Graphics-Labs\CMakeLists.txt" />
+    <CustomBuild Include="D:\Computer Graphics\Computer-Graphics-Labs\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{C2E93932-6502-3F83-8EE4-327F67F37D60}</UniqueIdentifier>
+      <UniqueIdentifier>{350CC5A0-DF74-3AB4-9A04-4CD7038CF72A}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
