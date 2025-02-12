@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/Computer-Graphics-Labs/external/glfw-3.1.2/examples/CMakeLists.txt
+  heightmap.c
+  glad.c
+  heightmap.vcxproj -> D:\Computer-Graphics-Labs\Build\external\glfw-3.1.2\examples\Debug\heightmap.exe

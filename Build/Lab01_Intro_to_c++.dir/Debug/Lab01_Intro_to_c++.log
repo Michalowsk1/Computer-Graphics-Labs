@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/Computer-Graphics-Labs/CMakeLists.txt
+  Lab01_Intro_to_c++.cpp
+D:\Computer-Graphics-Labs\Lab01_Intro_to_c++\Lab01_Intro_to_c++.cpp(7,11): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Lab01_Intro_to_c++.vcxproj -> D:\Computer-Graphics-Labs\Build\Debug\Lab01_Intro_to_c++.exe

@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\23619282\\OneDrive - MMU\\Documents\\GitHub\\Computer-Graphics-Labs\\",
+  "WorkspaceRootPath": "D:\\Computer-Graphics-Labs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\23619282\\OneDrive - MMU\\Documents\\GitHub\\Computer-Graphics-Labs\\Lab02_Basic_shapes\\Lab02_Basic_shapes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Computer-Graphics-Labs\\Lab02_Basic_shapes\\Lab02_Basic_shapes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab02_Basic_shapes\\Lab02_Basic_shapes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,9 +20,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Lab02_Basic_shapes.cpp",
-              "DocumentMoniker": "C:\\Users\\23619282\\OneDrive - MMU\\Documents\\GitHub\\Computer-Graphics-Labs\\Lab02_Basic_shapes\\Lab02_Basic_shapes.cpp",
+              "DocumentMoniker": "D:\\Computer-Graphics-Labs\\Lab02_Basic_shapes\\Lab02_Basic_shapes.cpp",
               "RelativeDocumentMoniker": "Lab02_Basic_shapes\\Lab02_Basic_shapes.cpp",
-              "ToolTip": "C:\\Users\\23619282\\OneDrive - MMU\\Documents\\GitHub\\Computer-Graphics-Labs\\Lab02_Basic_shapes\\Lab02_Basic_shapes.cpp",
+              "ToolTip": "D:\\Computer-Graphics-Labs\\Lab02_Basic_shapes\\Lab02_Basic_shapes.cpp",
               "RelativeToolTip": "Lab02_Basic_shapes\\Lab02_Basic_shapes.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",

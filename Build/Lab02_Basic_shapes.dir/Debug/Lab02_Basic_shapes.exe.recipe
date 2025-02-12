@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\Computer Graphics\Computer-Graphics-Labs\Build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>D:\Computer-Graphics-Labs\Build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>D:\Computer Graphics\Computer-Graphics-Labs\build\Debug\Lab02_Basic_shapes.exe</FullPath>
+      <FullPath>D:\Computer-Graphics-Labs\Build\Debug\Lab02_Basic_shapes.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
