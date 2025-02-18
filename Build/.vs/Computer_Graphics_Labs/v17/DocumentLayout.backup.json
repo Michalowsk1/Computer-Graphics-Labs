@@ -3,13 +3,13 @@
   "WorkspaceRootPath": "D:\\Computer Graphics\\Computer-Graphics-Labs\\Build\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{933E4779-B911-3BC1-A471-3E9EA07339D8}|Lab02_Basic_shapes.vcxproj|D:\\Computer Graphics\\Computer-Graphics-Labs\\Lab02_Basic_shapes\\Lab02_Basic_shapes.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{AAF30582-7EE7-3040-8E64-1D315593B5F1}|Lab03_Textures.vcxproj|D:\\Computer Graphics\\Computer-Graphics-Labs\\Lab03_Textures\\fragmentShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933E4779-B911-3BC1-A471-3E9EA07339D8}|Lab02_Basic_shapes.vcxproj|D:\\Computer Graphics\\Computer-Graphics-Labs\\Lab02_Basic_shapes\\vertexShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{AAF30582-7EE7-3040-8E64-1D315593B5F1}|Lab03_Textures.vcxproj|D:\\Computer Graphics\\Computer-Graphics-Labs\\Lab03_Textures\\Lab03_Textures.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{933E4779-B911-3BC1-A471-3E9EA07339D8}|Lab02_Basic_shapes.vcxproj|D:\\Computer Graphics\\Computer-Graphics-Labs\\Lab02_Basic_shapes\\fragmentShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{AAF30582-7EE7-3040-8E64-1D315593B5F1}|Lab03_Textures.vcxproj|D:\\Computer Graphics\\Computer-Graphics-Labs\\Lab03_Textures\\vertexShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,45 +19,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "vertexShader.glsl",
+              "DocumentMoniker": "D:\\Computer Graphics\\Computer-Graphics-Labs\\Lab03_Textures\\vertexShader.glsl",
+              "RelativeDocumentMoniker": "..\\Lab03_Textures\\vertexShader.glsl",
+              "ToolTip": "D:\\Computer Graphics\\Computer-Graphics-Labs\\Lab03_Textures\\vertexShader.glsl",
+              "RelativeToolTip": "..\\Lab03_Textures\\vertexShader.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-18T03:24:20.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Lab02_Basic_shapes.cpp",
-              "DocumentMoniker": "D:\\Computer Graphics\\Computer-Graphics-Labs\\Lab02_Basic_shapes\\Lab02_Basic_shapes.cpp",
-              "RelativeDocumentMoniker": "..\\Lab02_Basic_shapes\\Lab02_Basic_shapes.cpp",
-              "ToolTip": "D:\\Computer Graphics\\Computer-Graphics-Labs\\Lab02_Basic_shapes\\Lab02_Basic_shapes.cpp",
-              "RelativeToolTip": "..\\Lab02_Basic_shapes\\Lab02_Basic_shapes.cpp",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAgwG8AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-05T20:51:40.457Z",
+              "Title": "fragmentShader.glsl",
+              "DocumentMoniker": "D:\\Computer Graphics\\Computer-Graphics-Labs\\Lab03_Textures\\fragmentShader.glsl",
+              "RelativeDocumentMoniker": "..\\Lab03_Textures\\fragmentShader.glsl",
+              "ToolTip": "D:\\Computer Graphics\\Computer-Graphics-Labs\\Lab03_Textures\\fragmentShader.glsl",
+              "RelativeToolTip": "..\\Lab03_Textures\\fragmentShader.glsl",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-18T03:24:19.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "vertexShader.glsl",
-              "DocumentMoniker": "D:\\Computer Graphics\\Computer-Graphics-Labs\\Lab02_Basic_shapes\\vertexShader.glsl",
-              "RelativeDocumentMoniker": "..\\Lab02_Basic_shapes\\vertexShader.glsl",
-              "ToolTip": "D:\\Computer Graphics\\Computer-Graphics-Labs\\Lab02_Basic_shapes\\vertexShader.glsl",
-              "RelativeToolTip": "..\\Lab02_Basic_shapes\\vertexShader.glsl",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-05T20:51:53.588Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "fragmentShader.glsl",
-              "DocumentMoniker": "D:\\Computer Graphics\\Computer-Graphics-Labs\\Lab02_Basic_shapes\\fragmentShader.glsl",
-              "RelativeDocumentMoniker": "..\\Lab02_Basic_shapes\\fragmentShader.glsl",
-              "ToolTip": "D:\\Computer Graphics\\Computer-Graphics-Labs\\Lab02_Basic_shapes\\fragmentShader.glsl",
-              "RelativeToolTip": "..\\Lab02_Basic_shapes\\fragmentShader.glsl",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-05T20:51:52.319Z",
+              "Title": "Lab03_Textures.cpp",
+              "DocumentMoniker": "D:\\Computer Graphics\\Computer-Graphics-Labs\\Lab03_Textures\\Lab03_Textures.cpp",
+              "RelativeDocumentMoniker": "..\\Lab03_Textures\\Lab03_Textures.cpp",
+              "ToolTip": "D:\\Computer Graphics\\Computer-Graphics-Labs\\Lab03_Textures\\Lab03_Textures.cpp",
+              "RelativeToolTip": "..\\Lab03_Textures\\Lab03_Textures.cpp",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAiwIgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-18T03:04:36.139Z",
               "EditorCaption": ""
             }
           ]
