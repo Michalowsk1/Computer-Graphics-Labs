@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\tests\iconify.c">
+    <ClCompile Include="D:\Computer-Graphics-Labs\external\glfw-3.1.2\tests\iconify.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\deps\getopt.c">
+    <ClCompile Include="D:\Computer-Graphics-Labs\external\glfw-3.1.2\deps\getopt.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\deps\getopt.h">
+    <ClInclude Include="D:\Computer-Graphics-Labs\external\glfw-3.1.2\deps\getopt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\tests\CMakeLists.txt" />
+    <CustomBuild Include="D:\Computer-Graphics-Labs\external\glfw-3.1.2\tests\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{5338714C-D254-3BC3-8C5A-AE063632B997}</UniqueIdentifier>
+      <UniqueIdentifier>{94CE43E1-0E9D-345F-AEDD-3ECDF10F2FBF}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{9B126935-4628-35D4-9C62-E3AC9C14FAE8}</UniqueIdentifier>
+      <UniqueIdentifier>{C0EEBDFC-61D4-31F0-9D91-A9C406189EDC}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
