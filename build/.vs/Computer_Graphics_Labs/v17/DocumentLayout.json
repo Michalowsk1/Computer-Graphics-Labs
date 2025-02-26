@@ -3,7 +3,16 @@
   "WorkspaceRootPath": "D:\\Computer-Graphics-Labs\\Build\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B17AD5A8-8C6C-3CAD-AAB5-064E0497037B}|Lab04_Vectors_and_matrices.vcxproj|D:\\Computer-Graphics-Labs\\Lab04_Vectors_and_matrices\\Lab04_Vectors_and_matrices.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{52498B9A-A258-3FB9-A64E-9ACDB334E77F}|Lab05_Transformations.vcxproj|D:\\Computer-Graphics-Labs\\common\\maths.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52498B9A-A258-3FB9-A64E-9ACDB334E77F}|Lab05_Transformations.vcxproj|D:\\Computer-Graphics-Labs\\common\\maths.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52498B9A-A258-3FB9-A64E-9ACDB334E77F}|Lab05_Transformations.vcxproj|D:\\Computer-Graphics-Labs\\Lab05_Transformations\\Lab05_Transformations.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52498B9A-A258-3FB9-A64E-9ACDB334E77F}|Lab05_Transformations.vcxproj|D:\\Computer-Graphics-Labs\\Lab05_Transformations\\vertexShader.glsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,14 +27,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Lab04_Vectors_and_matrices.cpp",
-              "DocumentMoniker": "D:\\Computer-Graphics-Labs\\Lab04_Vectors_and_matrices\\Lab04_Vectors_and_matrices.cpp",
-              "RelativeDocumentMoniker": "..\\Lab04_Vectors_and_matrices\\Lab04_Vectors_and_matrices.cpp",
-              "ToolTip": "D:\\Computer-Graphics-Labs\\Lab04_Vectors_and_matrices\\Lab04_Vectors_and_matrices.cpp",
-              "RelativeToolTip": "..\\Lab04_Vectors_and_matrices\\Lab04_Vectors_and_matrices.cpp",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAADIAAAAwAAAA",
+              "Title": "maths.cpp",
+              "DocumentMoniker": "D:\\Computer-Graphics-Labs\\common\\maths.cpp",
+              "RelativeDocumentMoniker": "..\\common\\maths.cpp",
+              "ToolTip": "D:\\Computer-Graphics-Labs\\common\\maths.cpp",
+              "RelativeToolTip": "..\\common\\maths.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-19T13:10:03.375Z",
+              "WhenOpened": "2025-02-26T13:34:22.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "maths.hpp",
+              "DocumentMoniker": "D:\\Computer-Graphics-Labs\\common\\maths.hpp",
+              "RelativeDocumentMoniker": "..\\common\\maths.hpp",
+              "ToolTip": "D:\\Computer-Graphics-Labs\\common\\maths.hpp",
+              "RelativeToolTip": "..\\common\\maths.hpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-26T13:30:23.882Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "vertexShader.glsl",
+              "DocumentMoniker": "D:\\Computer-Graphics-Labs\\Lab05_Transformations\\vertexShader.glsl",
+              "RelativeDocumentMoniker": "..\\Lab05_Transformations\\vertexShader.glsl",
+              "ToolTip": "D:\\Computer-Graphics-Labs\\Lab05_Transformations\\vertexShader.glsl",
+              "RelativeToolTip": "..\\Lab05_Transformations\\vertexShader.glsl",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-26T13:26:12.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Lab05_Transformations.cpp",
+              "DocumentMoniker": "D:\\Computer-Graphics-Labs\\Lab05_Transformations\\Lab05_Transformations.cpp",
+              "RelativeDocumentMoniker": "..\\Lab05_Transformations\\Lab05_Transformations.cpp",
+              "ToolTip": "D:\\Computer-Graphics-Labs\\Lab05_Transformations\\Lab05_Transformations.cpp",
+              "RelativeToolTip": "..\\Lab05_Transformations\\Lab05_Transformations.cpp",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAAAKQAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-26T13:11:11.962Z",
               "EditorCaption": ""
             }
           ]

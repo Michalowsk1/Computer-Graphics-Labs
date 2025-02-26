@@ -1,6 +1,6 @@
-^D:\COMPUTER GRAPHICS\COMPUTER-GRAPHICS-LABS\EXTERNAL\GLFW-3.1.2\SRC\CMAKELISTS.TXT
+^D:\COMPUTER-GRAPHICS-LABS\EXTERNAL\GLFW-3.1.2\SRC\CMAKELISTS.TXT
 setlocal
-"D:\Computer Graphics\bin\cmake.exe" "-SD:/Computer Graphics/Computer-Graphics-Labs" "-BD:/Computer Graphics/Computer-Graphics-Labs/Build" --check-stamp-file "D:/Computer Graphics/Computer-Graphics-Labs/Build/external/glfw-3.1.2/src/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Computer-Graphics-Labs -BD:/Computer-Graphics-Labs/Build --check-stamp-file D:/Computer-Graphics-Labs/Build/external/glfw-3.1.2/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
