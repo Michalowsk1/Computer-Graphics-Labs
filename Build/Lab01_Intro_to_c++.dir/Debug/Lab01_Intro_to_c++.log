@@ -1,4 +1,5 @@
-﻿  Building Custom Rule D:/Computer-Graphics-Labs/CMakeLists.txt
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (Lab01_Intro_to_c++.dir\Debug\) contains files shared from another project (Lab01_Intro_to_c++.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Building Custom Rule D:/Computer Graphics/Computer-Graphics-Labs/CMakeLists.txt
   Lab01_Intro_to_c++.cpp
-D:\Computer-Graphics-Labs\Lab01_Intro_to_c++\Lab01_Intro_to_c++.cpp(7,11): warning C4305: 'initializing': truncation from 'double' to 'float'
-  Lab01_Intro_to_c++.vcxproj -> D:\Computer-Graphics-Labs\Build\Debug\Lab01_Intro_to_c++.exe
+D:\Computer Graphics\Computer-Graphics-Labs\Lab01_Intro_to_c++\Lab01_Intro_to_c++.cpp(7,11): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Lab01_Intro_to_c++.vcxproj -> D:\Computer Graphics\Computer-Graphics-Labs\Build\Debug\Lab01_Intro_to_c++.exe

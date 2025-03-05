@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{EB0FB07E-E5DD-36FB-AC13-DEF100045FAD}</ProjectGuid>
+    <ProjectGuid>{659782CC-9222-3911-A427-F297C2A23BC5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -105,10 +105,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Computer-Graphics-Labs\Build\CMakeFiles\ecc6f186aadd825f635aa7473e2c64d0\uninstall.rule">
+    <CustomBuild Include="D:\Computer Graphics\Computer-Graphics-Labs\Build\CMakeFiles\c0993b1475fe036479f58350d01a5515\uninstall.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P D:/Computer-Graphics-Labs/Build/external/glfw-3.1.2/cmake_uninstall.cmake
+"D:\Computer Graphics\bin\cmake.exe" -P "D:/Computer Graphics/Computer-Graphics-Labs/Build/external/glfw-3.1.2/cmake_uninstall.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -117,12 +117,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Computer-Graphics-Labs\Build\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Computer Graphics\Computer-Graphics-Labs\Build\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P D:/Computer-Graphics-Labs/Build/external/glfw-3.1.2/cmake_uninstall.cmake
+"D:\Computer Graphics\bin\cmake.exe" -P "D:/Computer Graphics/Computer-Graphics-Labs/Build/external/glfw-3.1.2/cmake_uninstall.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,12 +131,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Computer-Graphics-Labs\Build\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Computer Graphics\Computer-Graphics-Labs\Build\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P D:/Computer-Graphics-Labs/Build/external/glfw-3.1.2/cmake_uninstall.cmake
+"D:\Computer Graphics\bin\cmake.exe" -P "D:/Computer Graphics/Computer-Graphics-Labs/Build/external/glfw-3.1.2/cmake_uninstall.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -145,12 +145,12 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Computer-Graphics-Labs\Build\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Computer Graphics\Computer-Graphics-Labs\Build\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P D:/Computer-Graphics-Labs/Build/external/glfw-3.1.2/cmake_uninstall.cmake
+"D:\Computer Graphics\bin\cmake.exe" -P "D:/Computer Graphics/Computer-Graphics-Labs/Build/external/glfw-3.1.2/cmake_uninstall.cmake"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,17 +159,17 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Computer-Graphics-Labs\Build\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Computer Graphics\Computer-Graphics-Labs\Build\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\Computer-Graphics-Labs\external\glfw-3.1.2\CMakeLists.txt">
+    <CustomBuild Include="D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Computer-Graphics-Labs/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Computer Graphics/Computer-Graphics-Labs/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/Computer-Graphics-Labs -BD:/Computer-Graphics-Labs/Build --check-stamp-file D:/Computer-Graphics-Labs/Build/external/glfw-3.1.2/CMakeFiles/generate.stamp
+"D:\Computer Graphics\bin\cmake.exe" "-SD:/Computer Graphics/Computer-Graphics-Labs" "-BD:/Computer Graphics/Computer-Graphics-Labs/Build" --check-stamp-file "D:/Computer Graphics/Computer-Graphics-Labs/Build/external/glfw-3.1.2/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -177,12 +177,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;D:\Computer-Graphics-Labs\external\glfw-3.1.2\cmake_uninstall.cmake.in;D:\Computer-Graphics-Labs\external\glfw-3.1.2\docs\Doxyfile.in;D:\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw3.pc.in;D:\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw3Config.cmake.in;D:\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Computer-Graphics-Labs\Build\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\cmake_uninstall.cmake.in;D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\docs\Doxyfile.in;D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw3.pc.in;D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw3Config.cmake.in;D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw_config.h.in;D:\Computer Graphics\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Computer Graphics\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\CheckIncludeFile.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\CheckLibraryExists.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\FindDoxygen.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\FindOpenGL.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\FindThreads.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Computer Graphics\Computer-Graphics-Labs\Build\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Computer-Graphics-Labs/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Computer Graphics/Computer-Graphics-Labs/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/Computer-Graphics-Labs -BD:/Computer-Graphics-Labs/Build --check-stamp-file D:/Computer-Graphics-Labs/Build/external/glfw-3.1.2/CMakeFiles/generate.stamp
+"D:\Computer Graphics\bin\cmake.exe" "-SD:/Computer Graphics/Computer-Graphics-Labs" "-BD:/Computer Graphics/Computer-Graphics-Labs/Build" --check-stamp-file "D:/Computer Graphics/Computer-Graphics-Labs/Build/external/glfw-3.1.2/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -190,12 +190,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;D:\Computer-Graphics-Labs\external\glfw-3.1.2\cmake_uninstall.cmake.in;D:\Computer-Graphics-Labs\external\glfw-3.1.2\docs\Doxyfile.in;D:\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw3.pc.in;D:\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw3Config.cmake.in;D:\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Computer-Graphics-Labs\Build\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\cmake_uninstall.cmake.in;D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\docs\Doxyfile.in;D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw3.pc.in;D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw3Config.cmake.in;D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw_config.h.in;D:\Computer Graphics\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Computer Graphics\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\CheckIncludeFile.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\CheckLibraryExists.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\FindDoxygen.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\FindOpenGL.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\FindThreads.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Computer Graphics\Computer-Graphics-Labs\Build\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Computer-Graphics-Labs/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Computer Graphics/Computer-Graphics-Labs/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/Computer-Graphics-Labs -BD:/Computer-Graphics-Labs/Build --check-stamp-file D:/Computer-Graphics-Labs/Build/external/glfw-3.1.2/CMakeFiles/generate.stamp
+"D:\Computer Graphics\bin\cmake.exe" "-SD:/Computer Graphics/Computer-Graphics-Labs" "-BD:/Computer Graphics/Computer-Graphics-Labs/Build" --check-stamp-file "D:/Computer Graphics/Computer-Graphics-Labs/Build/external/glfw-3.1.2/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -203,12 +203,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;D:\Computer-Graphics-Labs\external\glfw-3.1.2\cmake_uninstall.cmake.in;D:\Computer-Graphics-Labs\external\glfw-3.1.2\docs\Doxyfile.in;D:\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw3.pc.in;D:\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw3Config.cmake.in;D:\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Computer-Graphics-Labs\Build\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\cmake_uninstall.cmake.in;D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\docs\Doxyfile.in;D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw3.pc.in;D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw3Config.cmake.in;D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw_config.h.in;D:\Computer Graphics\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Computer Graphics\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\CheckIncludeFile.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\CheckLibraryExists.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\FindDoxygen.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\FindOpenGL.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\FindThreads.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Computer Graphics\Computer-Graphics-Labs\Build\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Computer-Graphics-Labs/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Computer Graphics/Computer-Graphics-Labs/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/Computer-Graphics-Labs -BD:/Computer-Graphics-Labs/Build --check-stamp-file D:/Computer-Graphics-Labs/Build/external/glfw-3.1.2/CMakeFiles/generate.stamp
+"D:\Computer Graphics\bin\cmake.exe" "-SD:/Computer Graphics/Computer-Graphics-Labs" "-BD:/Computer Graphics/Computer-Graphics-Labs/Build" --check-stamp-file "D:/Computer Graphics/Computer-Graphics-Labs/Build/external/glfw-3.1.2/CMakeFiles/generate.stamp"
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -216,18 +216,19 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Internal\CheckSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;D:\Computer-Graphics-Labs\external\glfw-3.1.2\cmake_uninstall.cmake.in;D:\Computer-Graphics-Labs\external\glfw-3.1.2\docs\Doxyfile.in;D:\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw3.pc.in;D:\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw3Config.cmake.in;D:\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Computer-Graphics-Labs\Build\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\cmake_uninstall.cmake.in;D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\docs\Doxyfile.in;D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw3.pc.in;D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw3Config.cmake.in;D:\Computer Graphics\Computer-Graphics-Labs\external\glfw-3.1.2\src\glfw_config.h.in;D:\Computer Graphics\share\cmake-3.31\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\Computer Graphics\share\cmake-3.31\Modules\CMakePackageConfigHelpers.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\CheckCSourceCompiles.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\CheckIncludeFile.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\CheckLibraryExists.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\FindDoxygen.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\FindOpenGL.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\FindPackageHandleStandardArgs.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\FindPackageMessage.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\FindThreads.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\Internal\CheckSourceCompiles.cmake;D:\Computer Graphics\share\cmake-3.31\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Computer Graphics\Computer-Graphics-Labs\Build\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="D:\Computer-Graphics-Labs\Build\external\glfw-3.1.2\CMakeFiles\uninstall">
+    <None Include="D:\Computer Graphics\Computer-Graphics-Labs\Build\external\glfw-3.1.2\CMakeFiles\uninstall">
     </None>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="D:\Computer-Graphics-Labs\Build\ZERO_CHECK.vcxproj">
-      <Project>{43595C57-B310-3F0E-B0FB-9B384C9631B3}</Project>
+    <ProjectReference Include="D:\Computer Graphics\Computer-Graphics-Labs\Build\ZERO_CHECK.vcxproj">
+      <Project>{A8A5A12D-23B4-35D1-934D-67C67431E80E}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

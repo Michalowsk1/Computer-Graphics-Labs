@@ -146,23 +146,44 @@ int main( void )
         //translate[3][0] = 0.4f, translate[3][1] = 0.3, translate[3][2] = 0.0f;
         
         //define translation matrix from maths class
-        //mat4 translate = Maths::translate(vec3(0.4f, 0.3f, 0.0f));
-        //mat4 transformation = translate;
+        mat4 translate = Maths::translate(vec3(0.4f, 0.3f, 0.0f));
 
         //define scaling matrix
         //mat4 scale;
         //scale[0][0] = 0.4f, scale[1][1] = 0.3f, scale[2][2] = 1.0f;
 
         //Define scale matrix from math class
-        //mat4 scale = Maths::scale(vec3(0.4f, 0.3f, 1.0f));
-        //mat4 transformation = scale;
+        mat4 scale = Maths::scale(vec3(0.4f, 0.3f, 1.0f));
 
         //Define the rotation matrix
-        mat4 rotate;
+        /*mat4 rotate;
         float angle = 45.0f * 3.1416f / 180.0f;
         rotate[0][0] = cos(angle), rotate[0][1] = sin(angle);
         rotate[1][0] = -sin(angle), rotate[1][1] = cos(angle);
-        mat4 transformation = rotate;
+        mat4 transformation = rotate;*/
+
+        //define rotation matrix from maths class
+        float angle = Maths::radians(45.0f);
+        mat4 rotate = Maths::rotate(angle, vec3(0.0f, 0.0f, 1.0f));
+
+
+        //using translate, rotate and scale for the transformation
+        //mat4 transformation = translate * rotate * scale;
+
+        //ANIMATED
+        float Animatedangle = Maths::radians(glfwGetTime() * 360.0f / 3.0f);
+        mat4 Animatedtranslate = Maths::translate(vec3(0.4f, 0.3f, 0.0f));
+        mat4 Animatedscale = Maths::scale(vec3(0.4f, 0.3f, 0.0f));
+        mat4 Animatedrotate = Maths::rotate(Animatedangle, vec3(0.0f, 0.0f, 1.0f));
+
+        //rotating in motion
+        //mat4 transformation = Animatedtranslate * Animatedrotate * Animatedscale;
+
+        //moving in a circle
+        mat4 transformation = Animatedrotate * Animatedtranslate * Animatedscale;
+
+
+
 
         //Send the transformation matrix to the shader
         unsigned int transformationID;

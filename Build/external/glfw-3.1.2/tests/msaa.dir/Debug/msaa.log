@@ -1,4 +1,4 @@
-﻿  Building Custom Rule D:/Computer-Graphics-Labs/external/glfw-3.1.2/tests/CMakeLists.txt
+﻿  Building Custom Rule D:/Computer Graphics/Computer-Graphics-Labs/external/glfw-3.1.2/tests/CMakeLists.txt
   msaa.c
   getopt.c
-  msaa.vcxproj -> D:\Computer-Graphics-Labs\Build\external\glfw-3.1.2\tests\Debug\msaa.exe
+  msaa.vcxproj -> D:\Computer Graphics\Computer-Graphics-Labs\Build\external\glfw-3.1.2\tests\Debug\msaa.exe

@@ -13,4 +13,8 @@ public:
 	static mat4 translate(const vec3 &v);
 
 	static mat4 scale(const vec3& v);
+
+	static float radians(float angle);
+
+	static mat4 rotate(const float& angle, vec3 v);
 };
