@@ -34,11 +34,11 @@ mat4 Maths::rotate(const float& angle, vec3 v)
 	mat4 rotate;
 	rotate[0][0] = (1 - c) * x2 + c;
 	rotate[0][1] = (1 - c) * xy + zs;
-	rotate[0][2] = (1 - c) * xz - yz;
+	rotate[0][2] = (1 - c) * xz - ys;
 	rotate[1][0] = (1 - c) * xy - zs;
 	rotate[1][1] = (1 - c) * y2 + c;
 	rotate[1][2] = (1 - c) * yz + xs;
-	rotate[2][0] = (1 - c) * xz + yz;
+	rotate[2][0] = (1 - c) * xz + ys;
 	rotate[2][1] = (1 - c) * yz - xs;
 	rotate[2][2] = (1 - c) * z2 + c;
 
