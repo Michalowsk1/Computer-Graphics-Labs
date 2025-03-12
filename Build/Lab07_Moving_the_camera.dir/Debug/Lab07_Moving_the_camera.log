@@ -1,7 +1,0 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (Lab07_Moving_the_camera.dir\Debug\) contains files shared from another project (Lab07_Moving_the_camera.vcxproj, Lab07_Moving_the_camera.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Building Custom Rule D:/Computer-Graphics-Labs/Computer-Graphics-Labs/CMakeLists.txt
-  Lab07_Moving_the_camera.cpp
-  maths.cpp
-  camera.cpp
-D:\Computer-Graphics-Labs\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(268,27): warning C4018: '<': signed/unsigned mismatch
-  Lab07_Moving_the_camera.vcxproj -> D:\YE\Computer-Graphics-Labs\Build\Debug\Lab07_Moving_the_camera.exe

@@ -30,4 +30,6 @@
 *.out
 *.app
 
+Build/
+
 .DS_Store

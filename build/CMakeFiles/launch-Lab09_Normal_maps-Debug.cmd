@@ -1,9 +1,0 @@
-cd D:/Computer-Graphics-Labs/Computer-Graphics-Labs/Lab09_Normal_maps/
-set 
-
-if [%1]==[--debugger] (
-	SHIFT
-)
-
-"D:\YE\Computer-Graphics-Labs\Build\Debug\Lab09_Normal_maps.exe"  
-pause

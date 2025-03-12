@@ -1,9 +1,0 @@
-cd D:/Computer-Graphics-Labs/Computer-Graphics-Labs/Lab03_Textures/
-set 
-
-if [%1]==[--debugger] (
-	SHIFT
-)
-
-"D:\YE\Computer-Graphics-Labs\Build\MinSizeRel\Lab03_Textures.exe"  
-pause
