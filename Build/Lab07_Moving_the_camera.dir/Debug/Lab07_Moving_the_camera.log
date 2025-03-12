@@ -1,20 +1,7 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (Lab07_Moving_the_camera.dir\Debug\) contains files shared from another project (Lab07_Moving_the_camera.vcxproj).  This can lead to incorrect clean and rebuild behavior.
-  Building Custom Rule D:/Computer Graphics/Computer-Graphics-Labs/CMakeLists.txt
+﻿C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (Lab07_Moving_the_camera.dir\Debug\) contains files shared from another project (Lab07_Moving_the_camera.vcxproj, Lab07_Moving_the_camera.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Building Custom Rule D:/Computer-Graphics-Labs/Computer-Graphics-Labs/CMakeLists.txt
   Lab07_Moving_the_camera.cpp
   maths.cpp
   camera.cpp
-D:\Computer Graphics\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(15,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-D:\Computer Graphics\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(15,8): error C2146: syntax error: missing ';' before identifier 'camera'
-D:\Computer Graphics\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(240,34): error C2039: 'radians': is not a member of 'Maths'
-      D:\Computer Graphics\Computer-Graphics-Labs\common\maths.hpp(9,7):
-      see declaration of 'Maths'
-  
-D:\Computer Graphics\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(265,9): error C2065: 'camera': undeclared identifier
-D:\Computer Graphics\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(268,27): warning C4018: '<': signed/unsigned mismatch
-D:\Computer Graphics\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(273,42): error C2039: 'rotate': is not a member of 'Maths'
-      D:\Computer Graphics\Computer-Graphics-Labs\common\maths.hpp(9,7):
-      see declaration of 'Maths'
-  
-D:\Computer Graphics\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(273,42): error C2064: term does not evaluate to a function taking 2 arguments
-D:\Computer Graphics\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(277,29): error C2065: 'camera': undeclared identifier
-D:\Computer Graphics\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(277,49): error C2065: 'camera': undeclared identifier
+D:\Computer-Graphics-Labs\Computer-Graphics-Labs\Lab07_Moving_the_camera\Lab07_Moving_the_camera.cpp(268,27): warning C4018: '<': signed/unsigned mismatch
+  Lab07_Moving_the_camera.vcxproj -> D:\YE\Computer-Graphics-Labs\Build\Debug\Lab07_Moving_the_camera.exe

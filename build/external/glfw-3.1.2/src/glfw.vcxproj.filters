@@ -42,7 +42,7 @@
     <ClInclude Include="D:\Computer-Graphics-Labs\Computer-Graphics-Labs\external\glfw-3.1.2\src\internal.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="D:\Computer-Graphics-Labs\Computer-Graphics-Labs\Build\external\glfw-3.1.2\src\glfw_config.h">
+    <ClInclude Include="D:\YE\Computer-Graphics-Labs\Build\external\glfw-3.1.2\src\glfw_config.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="D:\Computer-Graphics-Labs\Computer-Graphics-Labs\external\glfw-3.1.2\include\GLFW\glfw3.h">
@@ -69,10 +69,10 @@
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{CA9E80BB-E367-38C9-9D0F-9AA1D8D9E8E5}</UniqueIdentifier>
+      <UniqueIdentifier>{6C011D02-F5B3-31EF-99FB-5322FB9147E1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{E19AFFC4-33BF-3F72-9B5B-309D659CBB27}</UniqueIdentifier>
+      <UniqueIdentifier>{94FE1F57-1B7C-35FB-BB3A-32E90301E322}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

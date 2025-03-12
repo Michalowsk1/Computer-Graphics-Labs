@@ -1,6 +1,7 @@
-﻿C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (Lab05_Transformations.dir\Debug\) contains files shared from another project (Lab05_Transformations.vcxproj, Lab05_Transformations.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+﻿C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (Lab05_Transformations.dir\Debug\) contains files shared from another project (Lab05_Transformations.vcxproj, Lab05_Transformations.vcxproj, Lab05_Transformations.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Building Custom Rule D:/Computer-Graphics-Labs/Computer-Graphics-Labs/CMakeLists.txt
   Lab05_Transformations.cpp
   maths.cpp
 D:\Computer-Graphics-Labs\Computer-Graphics-Labs\Lab05_Transformations\Lab05_Transformations.cpp(174,69): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  Lab05_Transformations.vcxproj -> D:\Computer-Graphics-Labs\Computer-Graphics-Labs\Build\Debug\Lab05_Transformations.exe
+  LINK : D:\YE\Computer-Graphics-Labs\Build\Debug\Lab05_Transformations.exe not found or not built by the last incremental link; performing full link
+  Lab05_Transformations.vcxproj -> D:\YE\Computer-Graphics-Labs\Build\Debug\Lab05_Transformations.exe

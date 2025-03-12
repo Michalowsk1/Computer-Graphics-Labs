@@ -1,9 +1,9 @@
 
-if (NOT EXISTS "D:/Computer-Graphics-Labs/Computer-Graphics-Labs/Build/external/glfw-3.1.2/install_manifest.txt")
-  message(FATAL_ERROR "Cannot find install manifest: \"D:/Computer-Graphics-Labs/Computer-Graphics-Labs/Build/external/glfw-3.1.2/install_manifest.txt\"")
+if (NOT EXISTS "D:/YE/Computer-Graphics-Labs/Build/external/glfw-3.1.2/install_manifest.txt")
+  message(FATAL_ERROR "Cannot find install manifest: \"D:/YE/Computer-Graphics-Labs/Build/external/glfw-3.1.2/install_manifest.txt\"")
 endif()
 
-file(READ "D:/Computer-Graphics-Labs/Computer-Graphics-Labs/Build/external/glfw-3.1.2/install_manifest.txt" files)
+file(READ "D:/YE/Computer-Graphics-Labs/Build/external/glfw-3.1.2/install_manifest.txt" files)
 string(REGEX REPLACE "\n" ";" files "${files}")
 
 foreach (file ${files})

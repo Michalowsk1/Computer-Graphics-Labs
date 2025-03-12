@@ -5,5 +5,5 @@ if [%1]==[--debugger] (
 	SHIFT
 )
 
-"D:\Computer-Graphics-Labs\Computer-Graphics-Labs\Build\Debug\Lab03_Textures.exe"  
+"D:\YE\Computer-Graphics-Labs\Build\Debug\Lab03_Textures.exe"  
 pause

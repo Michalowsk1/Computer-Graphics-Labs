@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{DB28E8E7-FDF0-33FA-8979-F0DD8C718A4B}</ProjectGuid>
+    <ProjectGuid>{29014A58-59A6-3C03-984E-217917142A11}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -59,19 +59,19 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Computer-Graphics-Labs\Computer-Graphics-Labs\Build\external\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\YE\Computer-Graphics-Labs\Build\external\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GLEW_1130.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">GLEW_1130</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Computer-Graphics-Labs\Computer-Graphics-Labs\Build\external\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\YE\Computer-Graphics-Labs\Build\external\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GLEW_1130.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">GLEW_1130</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Computer-Graphics-Labs\Computer-Graphics-Labs\Build\external\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\YE\Computer-Graphics-Labs\Build\external\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GLEW_1130.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">GLEW_1130</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Computer-Graphics-Labs\Computer-Graphics-Labs\Build\external\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\YE\Computer-Graphics-Labs\Build\external\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GLEW_1130.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">GLEW_1130</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
@@ -220,7 +220,7 @@
       <UseUtf8Encoding>Always</UseUtf8Encoding>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Computer-Graphics-Labs/Computer-Graphics-Labs/external/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/Computer-Graphics-Labs/Computer-Graphics-Labs -BD:/Computer-Graphics-Labs/Computer-Graphics-Labs/Build --check-stamp-file D:/Computer-Graphics-Labs/Computer-Graphics-Labs/Build/external/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Computer-Graphics-Labs/Computer-Graphics-Labs -BD:/YE/Computer-Graphics-Labs/Build --check-stamp-file D:/YE/Computer-Graphics-Labs/Build/external/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -229,11 +229,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Computer-Graphics-Labs\Computer-Graphics-Labs\Build\external\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\YE\Computer-Graphics-Labs\Build\external\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Computer-Graphics-Labs/Computer-Graphics-Labs/external/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/Computer-Graphics-Labs/Computer-Graphics-Labs -BD:/Computer-Graphics-Labs/Computer-Graphics-Labs/Build --check-stamp-file D:/Computer-Graphics-Labs/Computer-Graphics-Labs/Build/external/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Computer-Graphics-Labs/Computer-Graphics-Labs -BD:/YE/Computer-Graphics-Labs/Build --check-stamp-file D:/YE/Computer-Graphics-Labs/Build/external/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -242,11 +242,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Computer-Graphics-Labs\Computer-Graphics-Labs\Build\external\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\YE\Computer-Graphics-Labs\Build\external\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Computer-Graphics-Labs/Computer-Graphics-Labs/external/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/Computer-Graphics-Labs/Computer-Graphics-Labs -BD:/Computer-Graphics-Labs/Computer-Graphics-Labs/Build --check-stamp-file D:/Computer-Graphics-Labs/Computer-Graphics-Labs/Build/external/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Computer-Graphics-Labs/Computer-Graphics-Labs -BD:/YE/Computer-Graphics-Labs/Build --check-stamp-file D:/YE/Computer-Graphics-Labs/Build/external/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -255,11 +255,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Computer-Graphics-Labs\Computer-Graphics-Labs\Build\external\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\YE\Computer-Graphics-Labs\Build\external\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Computer-Graphics-Labs/Computer-Graphics-Labs/external/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SD:/Computer-Graphics-Labs/Computer-Graphics-Labs -BD:/Computer-Graphics-Labs/Computer-Graphics-Labs/Build --check-stamp-file D:/Computer-Graphics-Labs/Computer-Graphics-Labs/Build/external/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Computer-Graphics-Labs/Computer-Graphics-Labs -BD:/YE/Computer-Graphics-Labs/Build --check-stamp-file D:/YE/Computer-Graphics-Labs/Build/external/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -268,7 +268,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Computer-Graphics-Labs\Computer-Graphics-Labs\Build\external\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\YE\Computer-Graphics-Labs\Build\external\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
@@ -276,8 +276,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="D:\Computer-Graphics-Labs\Computer-Graphics-Labs\external\glew-1.13.0\src\glew.c" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\Computer-Graphics-Labs\Computer-Graphics-Labs\Build\ZERO_CHECK.vcxproj">
-      <Project>{D6921515-9D0F-3366-AA7F-005C13A32D44}</Project>
+    <ProjectReference Include="D:\YE\Computer-Graphics-Labs\Build\ZERO_CHECK.vcxproj">
+      <Project>{0FB5C4CA-18EB-3E27-9CD1-5020607E0D63}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
