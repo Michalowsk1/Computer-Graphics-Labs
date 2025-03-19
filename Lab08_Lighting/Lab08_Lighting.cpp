@@ -105,8 +105,24 @@ int main( void )
     teapot.addTexture("../assets/blue.bmp", "diffuse");
     
     // Use wireframe rendering (comment out to turn off)
-    glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+    //glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
     
+    //Defining teapot object lighting properties
+    
+    //AMBIENT 
+    teapot.ka = 0.2f;
+
+    //DIFFUSE
+    teapot.kd = 0.7f;
+
+    //SPECULAR
+    teapot.ks = 1.0f;
+    teapot.Ns = 20.0f;
+
+    //Define light source properties
+    vec3 lightPosition = vec3(2.0f, 2.0f, 2.0f);
+    vec3 lightColour = vec3(1.0f, 1.0f, 1.0f);
+
     // Render loop
     while (!glfwWindowShouldClose(window))
     {
@@ -125,6 +141,15 @@ int main( void )
         
         // Activate shader
         glUseProgram(shaderID);
+
+        //send light source properties to the shader
+
+        glUniform1f(glGetUniformLocation(shaderID, "ka"), teapot.ka);
+
+        //send specular light properties to shader
+
+        glUniform1f(glGetUniformLocation(shaderID, "ks"), teapot.ks);
+        glUniform1f(glGetUniformLocation(shaderID, "Ns"), teapot.Ns);
         
         // Calculate view and projection matrices
         camera.target = camera.eye + camera.front;
@@ -141,6 +166,15 @@ int main( void )
         
         // Send MVP matrix to the vertex shader
         glUniformMatrix4fv(glGetUniformLocation(shaderID, "MVP"), 1, GL_FALSE, &MVP[0][0]);
+
+        //Send MV matrix to vertex shader
+        mat4 MV = camera.view * model;
+        glUniformMatrix4fv(glGetUniformLocation(shaderID, "MV"), 1, GL_FALSE, &MV[0][0]);
+
+        glUniform1f(glGetUniformLocation(shaderID, "kd"), teapot.kd);
+        glUniform3fv(glGetUniformLocation(shaderID, "lightColour"), 1, &lightColour[0]);
+        vec3 viewSpaceLightPosition = vec3(camera.view * vec4(lightPosition, 1.0f));
+        glUniform3fv(glGetUniformLocation(shaderID, "lightPosition"), 1, &viewSpaceLightPosition[0]);
         
         // Draw teapot
         teapot.draw(shaderID);
