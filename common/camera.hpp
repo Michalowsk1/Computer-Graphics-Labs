@@ -11,6 +11,14 @@ public:
 	float aspect = 1024.0f / 768.0f;
 	float near = 0.2f;
 	float far = 100.0f;
+	vec3 right = vec3(1.0f, 0.0f, 0.0f);
+	vec3 up = vec3(0.0f, 1.0f, 0.0f);
+	vec3 front = vec3(0.0f, 0.0f, -1.0f);
+
+	// Camera Euler angles
+	float yaw = Maths::radians(-90.0f);
+	float pitch = 0.0f;
+	float roll = 0.0f;
 
 	//camera vectors
 	vec3 eye;
@@ -26,4 +34,6 @@ public:
 
 	//methods
 	void calculateMatrices();
+
+	void calculateCameraVectors();
 };
