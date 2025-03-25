@@ -122,6 +122,36 @@ int main( void )
     //Define light source properties
     vec3 lightPosition = vec3(2.0f, 2.0f, 2.0f);
     vec3 lightColour = vec3(1.0f, 1.0f, 1.0f);
+    float constant = 1.0f;
+    float linear = 0.1f;
+    float quadratic = 0.02f;
+
+    // Teapot positions
+    glm::vec3 positions[] = {
+        glm::vec3(0.0f,  0.0f,  0.0f),
+        glm::vec3(2.0f,  5.0f, -10.0f),
+        glm::vec3(-3.0f, -2.0f, -3.0f),
+        glm::vec3(-4.0f, -2.0f, -8.0f),
+        glm::vec3(2.0f,  2.0f, -6.0f),
+        glm::vec3(-4.0f,  3.0f, -8.0f),
+        glm::vec3(0.0f, -2.0f, -5.0f),
+        glm::vec3(4.0f,  2.0f, -4.0f),
+        glm::vec3(2.0f,  0.0f, -2.0f),
+        glm::vec3(-1.0f,  1.0f, -2.0f)
+    };
+
+    //add teapot to vector
+    std::vector<Object> objects;
+    Object object;
+    object.name = "teapot";
+    for (unsigned int i = 0; i < 10; i++)
+    {
+        object.position = positions[i];
+        object.rotation = vec3(1.0f, 1.0f, 1.0f);
+        object.scale = vec3(0.75f, 0.75f, 0.75f);
+        object.angle = Maths::radians(20.0f * i);
+        objects.push_back(object);
+    }
 
     // Render loop
     while (!glfwWindowShouldClose(window))
@@ -150,26 +180,68 @@ int main( void )
 
         glUniform1f(glGetUniformLocation(shaderID, "ks"), teapot.ks);
         glUniform1f(glGetUniformLocation(shaderID, "Ns"), teapot.Ns);
+
+        //send attenuation coefficients to shader
+        glUniform1f(glGetUniformLocation(shaderID, "constant"), constant);
+        glUniform1f(glGetUniformLocation(shaderID, "linear"), linear);
+        glUniform1f(glGetUniformLocation(shaderID, "quadratic"), quadratic);
         
         // Calculate view and projection matrices
         camera.target = camera.eye + camera.front;
         camera.calculateMatrices();
 
-        // Calculate the model matrix
-        glm::mat4 translate;
-        glm::mat4 scale;
-        glm::mat4 rotate;
-        glm::mat4 model = translate * rotate * scale;
+        //// Calculate the model matrix
+        //glm::mat4 translate;
+        //glm::mat4 scale;
+        //glm::mat4 rotate;
+        //glm::mat4 model = translate * rotate * scale;
 
-        // Calculate the MVP matrix
+        //// Calculate the MVP matrix
+        //glm::mat4 MVP = camera.projection * camera.view * model;
+        //
+        //// Send MVP matrix to the vertex shader
+        //glUniformMatrix4fv(glGetUniformLocation(shaderID, "MVP"), 1, GL_FALSE, &MVP[0][0]);
+
+        ////Send MV matrix to vertex shader
+        //mat4 MV = camera.view * model;
+        //glUniformMatrix4fv(glGetUniformLocation(shaderID, "MV"), 1, GL_FALSE, &MV[0][0]);
+
+        // Loop through objects
+        for (int i = 0; i < static_cast<unsigned int>(objects.size()); i++)
+        {
+            // Calculate model matrix
+            glm::mat4 translate = Maths::translate(objects[i].position);
+            glm::mat4 scale = Maths::scale(objects[i].scale);
+            glm::mat4 rotate = Maths::rotate(objects[i].angle, objects[i].rotation);
+            glm::mat4 model = translate * rotate * scale;
+
+            // Send the MVP and MV matrices to the vertex shader
+            glm::mat4 MV = camera.view * model;
+            glm::mat4 MVP = camera.projection * MV;
+            glUniformMatrix4fv(glGetUniformLocation(shaderID, "MVP"), 1, GL_FALSE, &MVP[0][0]);
+            glUniformMatrix4fv(glGetUniformLocation(shaderID, "MV"), 1, GL_FALSE, &MV[0][0]);
+
+            // Draw the model
+            teapot.draw(shaderID);
+        }
+
+        // Activate light source shader
+        glUseProgram(lightShaderID);
+
+        // Calculate model matrix
+        glm::mat4 translate = Maths::translate(lightPosition);
+        glm::mat4 scale = Maths::scale(glm::vec3(0.1f));
+        glm::mat4 model = translate * scale;
+
+        // Send the MVP and MV matrices to the vertex shader
         glm::mat4 MVP = camera.projection * camera.view * model;
-        
-        // Send MVP matrix to the vertex shader
-        glUniformMatrix4fv(glGetUniformLocation(shaderID, "MVP"), 1, GL_FALSE, &MVP[0][0]);
+        glUniformMatrix4fv(glGetUniformLocation(lightShaderID, "MVP"), 1, GL_FALSE, &MVP[0][0]);
 
-        //Send MV matrix to vertex shader
-        mat4 MV = camera.view * model;
-        glUniformMatrix4fv(glGetUniformLocation(shaderID, "MV"), 1, GL_FALSE, &MV[0][0]);
+        // Send model, view, projection matrices and light colour to light shader
+        glUniform3fv(glGetUniformLocation(lightShaderID, "lightColour"), 1, &lightColour[0]);
+
+        // Draw light source
+        sphere.draw(lightShaderID);
 
         glUniform1f(glGetUniformLocation(shaderID, "kd"), teapot.kd);
         glUniform3fv(glGetUniformLocation(shaderID, "lightColour"), 1, &lightColour[0]);

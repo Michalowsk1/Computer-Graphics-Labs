@@ -14,6 +14,9 @@ uniform float ka;
 uniform float kd;
 uniform float ks;
 uniform float Ns;
+uniform float constant;
+uniform float linear;
+uniform float quadratic;
 uniform vec3 lightColour;
 uniform vec3 lightPosition;
 
@@ -39,4 +42,11 @@ void main()
 
     //Fragment colour
     fragmentColour = ambient + diffuse + specular;
+
+    //attenuation
+    float distance = length(lightPosition - fragmentPosition);
+    float attenuation = 1.0 / (constant + linear * distance + quadratic * distance * distance);
+
+    //fragment color
+    fragmentColour = (ambient + diffuse + specular) * attenuation;
 }
