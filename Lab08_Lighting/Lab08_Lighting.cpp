@@ -31,6 +31,23 @@ struct Object
     std::string name;
 };
 
+
+//light structure
+struct Light
+{
+    vec3 position;
+    vec3 colour;
+    vec3 direction;
+    float cosPhi;
+    float constant;
+    float linear;
+    float quadratic;
+    unsigned int type;
+};
+
+//Create vector of light sources
+std::vector<Light> lightSources;
+
 int main( void )
 {
     // =========================================================================
@@ -91,7 +108,7 @@ int main( void )
     
     // Compile shader program
     unsigned int shaderID, lightShaderID;
-    shaderID      = LoadShaders("vertexShader.glsl", "fragmentShader.glsl");
+    shaderID      = LoadShaders("vertexShader.glsl", "multipleLightsFragmentShader.glsl");
     lightShaderID = LoadShaders("lightVertexShader.glsl", "lightFragmentShader.glsl");
     
     // Activate shader
@@ -125,6 +142,27 @@ int main( void )
     float constant = 1.0f;
     float linear = 0.1f;
     float quadratic = 0.02f;
+
+    //Add first point light source
+    Light light;
+    light.position = vec3(2.0f, 2.0f, 2.0f);
+    light.colour = vec3(1.0f, 1.0f, 1.0f);
+    light.constant = 1.0f;
+    light.linear = 0.1f;
+    light.quadratic = 0.02f;
+    light.type = 1;
+    //lightSources.push_back(light);
+
+    // Add second point light source
+    light.position = glm::vec3(1.0f, 1.0f, -8.0f);
+    //lightSources.push_back(light);
+
+    //Add spotlight
+    light.position = glm::vec3(0.0f, 3.0f, 0.0f);
+    light.direction = glm::vec3(0.0f, -1.0f, 0.0f);
+    light.cosPhi = std::cos(Maths::radians(45.0f));
+    light.type = 2;
+    lightSources.push_back(light);
 
     // Teapot positions
     glm::vec3 positions[] = {
@@ -172,23 +210,56 @@ int main( void )
         // Activate shader
         glUseProgram(shaderID);
 
-        //send light source properties to the shader
-
-        glUniform1f(glGetUniformLocation(shaderID, "ka"), teapot.ka);
-
-        //send specular light properties to shader
-
-        glUniform1f(glGetUniformLocation(shaderID, "ks"), teapot.ks);
-        glUniform1f(glGetUniformLocation(shaderID, "Ns"), teapot.Ns);
-
-        //send attenuation coefficients to shader
-        glUniform1f(glGetUniformLocation(shaderID, "constant"), constant);
-        glUniform1f(glGetUniformLocation(shaderID, "linear"), linear);
-        glUniform1f(glGetUniformLocation(shaderID, "quadratic"), quadratic);
-        
         // Calculate view and projection matrices
         camera.target = camera.eye + camera.front;
         camera.calculateMatrices();
+
+        ////send light source properties to the shader
+
+        //glUniform1f(glGetUniformLocation(shaderID, "ka"), teapot.ka);
+
+        ////send specular light properties to shader
+
+        //glUniform1f(glGetUniformLocation(shaderID, "ks"), teapot.ks);
+        //glUniform1f(glGetUniformLocation(shaderID, "Ns"), teapot.Ns);
+
+        ////send attenuation coefficients to shader
+        //glUniform1f(glGetUniformLocation(shaderID, "constant"), constant);
+        //glUniform1f(glGetUniformLocation(shaderID, "linear"), linear);
+        //glUniform1f(glGetUniformLocation(shaderID, "quadratic"), quadratic);
+        //
+
+
+        //glUniform1f(glGetUniformLocation(shaderID, "kd"), teapot.kd);
+        //glUniform3fv(glGetUniformLocation(shaderID, "lightColour"), 1, &lightColour[0]);
+        //vec3 viewSpaceLightPosition = vec3(camera.view * vec4(lightPosition, 1.0f));
+        //glUniform3fv(glGetUniformLocation(shaderID, "lightPosition"), 1, &viewSpaceLightPosition[0]);
+
+        // Send multiple light source properties to the shader
+        for (unsigned int i = 0; i < static_cast<unsigned int>(lightSources.size()); i++)
+        {
+            glm::vec3 viewSpaceLightPosition = glm::vec3(camera.view * glm::vec4(lightSources[i].position, 1.0f));
+            std::string idx = std::to_string(i);
+            glUniform3fv(glGetUniformLocation(shaderID, ("lightSources[" + idx + "].colour").c_str()), 1, &lightSources[i].colour[0]);
+            glUniform3fv(glGetUniformLocation(shaderID, ("lightSources[" + idx + "].position").c_str()), 1, &viewSpaceLightPosition[0]);
+            glUniform1f(glGetUniformLocation(shaderID, ("lightSources[" + idx + "].constant").c_str()), lightSources[i].constant);
+            glUniform1f(glGetUniformLocation(shaderID, ("lightSources[" + idx + "].linear").c_str()), lightSources[i].linear);
+            glUniform1f(glGetUniformLocation(shaderID, ("lightSources[" + idx + "].quadratic").c_str()), lightSources[i].quadratic);
+            glUniform1i(glGetUniformLocation(shaderID, ("lightSources[" + idx + "].type").c_str()), lightSources[i].type);
+
+            glm::vec3 viewSpaceLightDirection = glm::vec3(camera.view * glm::vec4(lightSources[i].direction, 0.0f));
+            glUniform3fv(glGetUniformLocation(shaderID, ("lightSources[" + idx + "].direction").c_str()), 1, &viewSpaceLightDirection[0]);
+            glUniform1f(glGetUniformLocation(shaderID, ("lightSources[" + idx + "].cosPhi").c_str()), lightSources[i].cosPhi);
+        }
+
+        // Send object lighting properties to the fragment shader
+        glUniform1f(glGetUniformLocation(shaderID, "ka"), teapot.ka);
+        glUniform1f(glGetUniformLocation(shaderID, "kd"), teapot.kd);
+        glUniform1f(glGetUniformLocation(shaderID, "ks"), teapot.ks);
+        glUniform1f(glGetUniformLocation(shaderID, "Ns"), teapot.Ns);
+
+
+
 
         //// Calculate the model matrix
         //glm::mat4 translate;
@@ -221,6 +292,7 @@ int main( void )
             glUniformMatrix4fv(glGetUniformLocation(shaderID, "MVP"), 1, GL_FALSE, &MVP[0][0]);
             glUniformMatrix4fv(glGetUniformLocation(shaderID, "MV"), 1, GL_FALSE, &MV[0][0]);
 
+
             // Draw the model
             teapot.draw(shaderID);
         }
@@ -229,27 +301,43 @@ int main( void )
         glUseProgram(lightShaderID);
 
         // Calculate model matrix
-        glm::mat4 translate = Maths::translate(lightPosition);
-        glm::mat4 scale = Maths::scale(glm::vec3(0.1f));
-        glm::mat4 model = translate * scale;
+        //glm::mat4 translate = Maths::translate(lightPosition);
+        //glm::mat4 scale = Maths::scale(glm::vec3(0.1f));
+        //glm::mat4 model = translate * scale;
 
-        // Send the MVP and MV matrices to the vertex shader
-        glm::mat4 MVP = camera.projection * camera.view * model;
-        glUniformMatrix4fv(glGetUniformLocation(lightShaderID, "MVP"), 1, GL_FALSE, &MVP[0][0]);
+        //// Send the MVP and MV matrices to the vertex shader
+        //glm::mat4 MVP = camera.projection * camera.view * model;
+        //glUniformMatrix4fv(glGetUniformLocation(lightShaderID, "MVP"), 1, GL_FALSE, &MVP[0][0]);
 
-        // Send model, view, projection matrices and light colour to light shader
-        glUniform3fv(glGetUniformLocation(lightShaderID, "lightColour"), 1, &lightColour[0]);
+        //// Send model, view, projection matrices and light colour to light shader
+        //glUniform3fv(glGetUniformLocation(lightShaderID, "lightColour"), 1, &lightColour[0]);
 
-        // Draw light source
-        sphere.draw(lightShaderID);
+        //// Draw light source
+        //sphere.draw(lightShaderID);
 
-        glUniform1f(glGetUniformLocation(shaderID, "kd"), teapot.kd);
-        glUniform3fv(glGetUniformLocation(shaderID, "lightColour"), 1, &lightColour[0]);
-        vec3 viewSpaceLightPosition = vec3(camera.view * vec4(lightPosition, 1.0f));
-        glUniform3fv(glGetUniformLocation(shaderID, "lightPosition"), 1, &viewSpaceLightPosition[0]);
+        for (unsigned int i = 0; i < static_cast<unsigned int>(lightSources.size()); i++)
+        {
+            // Calculate model matrix
+            glm::mat4 translate = Maths::translate(lightSources[i].position);
+            glm::mat4 scale = Maths::scale(glm::vec3(0.1f));
+            glm::mat4 model = translate * scale;
+
+            // Send the MVP and MV matrices to the vertex shader
+            glm::mat4 MVP = camera.projection * camera.view * model;
+            glUniformMatrix4fv(glGetUniformLocation(lightShaderID, "MVP"), 1, GL_FALSE, &MVP[0][0]);
+
+            // Send model, view, projection matrices and light colour to light shader
+            glUniform3fv(glGetUniformLocation(lightShaderID, "lightColour"), 1, &lightSources[i].colour[0]);
+
+
+
+            // Draw light source
+            sphere.draw(lightShaderID);
+        }
+
         
-        // Draw teapot
-        teapot.draw(shaderID);
+        //// Draw teapot
+        //teapot.draw(shaderID);
         
         // Swap buffers
         glfwSwapBuffers(window);

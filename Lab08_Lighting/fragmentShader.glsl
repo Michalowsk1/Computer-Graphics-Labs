@@ -47,6 +47,8 @@ void main()
     float distance = length(lightPosition - fragmentPosition);
     float attenuation = 1.0 / (constant + linear * distance + quadratic * distance * distance);
 
+
+
     //fragment color
     fragmentColour = (ambient + diffuse + specular) * attenuation;
 }
