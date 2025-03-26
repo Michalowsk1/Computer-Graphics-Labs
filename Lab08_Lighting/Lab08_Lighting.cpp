@@ -164,6 +164,12 @@ int main( void )
     light.type = 2;
     lightSources.push_back(light);
 
+    //add directional light
+    light.direction = glm::vec3(1.0f, -1.0f, 0.0f);
+    light.colour = glm::vec3(1.0f, 1.0f, 0.0f);
+    light.type = 3;
+    lightSources.push_back(light);
+
     // Teapot positions
     glm::vec3 positions[] = {
         glm::vec3(0.0f,  0.0f,  0.0f),
@@ -227,8 +233,7 @@ int main( void )
         //glUniform1f(glGetUniformLocation(shaderID, "constant"), constant);
         //glUniform1f(glGetUniformLocation(shaderID, "linear"), linear);
         //glUniform1f(glGetUniformLocation(shaderID, "quadratic"), quadratic);
-        //
-
+        
 
         //glUniform1f(glGetUniformLocation(shaderID, "kd"), teapot.kd);
         //glUniform3fv(glGetUniformLocation(shaderID, "lightColour"), 1, &lightColour[0]);
