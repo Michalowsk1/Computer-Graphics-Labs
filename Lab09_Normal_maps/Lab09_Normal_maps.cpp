@@ -104,6 +104,8 @@ int main( void )
     
     // Load the textures
     teapot.addTexture("../assets/blue.bmp", "diffuse");
+    teapot.addTexture("../assets/diamond_normal.png", "normal");
+    teapot.addTexture("../assets/neutral_specular.png", "specular");
     
     // Define teapot object lighting properties
     teapot.ka = 0.2f;
@@ -156,6 +158,26 @@ int main( void )
         object.angle    = Maths::radians(20.0f * i);
         objects.push_back(object);
     }
+
+    // Load a 2D plane model for the floor and add textures
+    Model floor("../assets/plane.obj");
+    floor.addTexture("../assets/stones_diffuse.png", "diffuse");
+    floor.addTexture("../assets/stones_normal.png", "normal");
+    floor.addTexture("../assets/stones_specular.png", "specular");
+
+    // Define floor light properties
+    floor.ka = 0.2f;
+    floor.kd = 1.0f;
+    floor.ks = 1.0f;
+    floor.Ns = 20.0f;
+
+    // Add floor model to objects vector
+    object.position = glm::vec3(0.0f, -0.85f, 0.0f);
+    object.scale = glm::vec3(1.0f, 1.0f, 1.0f);
+    object.rotation = glm::vec3(0.0f, 1.0f, 0.0f);
+    object.angle = 0.0f;
+    object.name = "floor";
+    objects.push_back(object);
     
     // Render loop
     while (!glfwWindowShouldClose(window))
@@ -201,6 +223,9 @@ int main( void )
             // Draw the model
             if (objects[i].name == "teapot")
                 teapot.draw(shaderID);
+
+            if (objects[i].name == "floor")
+                floor.draw(shaderID);
         }
         
         // Draw light sources
@@ -222,21 +247,27 @@ int main( void )
 
 void keyboardInput(GLFWwindow *window)
 {
+    int cameraMoveSpeed;
+    if (glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS)
+        cameraMoveSpeed = 10.0f;
+    else
+        cameraMoveSpeed = 5.0f;
+
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
         glfwSetWindowShouldClose(window, true);
     
     // Move the camera using WSAD keys
     if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
-        camera.eye += 5.0f * deltaTime * camera.front;
+        camera.eye += cameraMoveSpeed * deltaTime * camera.front;
 
     if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
-        camera.eye -= 5.0f * deltaTime * camera.front;
+        camera.eye -= cameraMoveSpeed * deltaTime * camera.front;
 
     if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
-        camera.eye -= 5.0f * deltaTime * camera.right;
+        camera.eye -= cameraMoveSpeed * deltaTime * camera.right;
 
     if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
-        camera.eye += 5.0f * deltaTime * camera.right;
+        camera.eye += cameraMoveSpeed * deltaTime * camera.right;
 }
 
 void mouseInput(GLFWwindow *window)
