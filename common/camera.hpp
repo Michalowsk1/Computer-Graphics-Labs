@@ -16,7 +16,7 @@ public:
 	vec3 front = vec3(0.0f, 0.0f, -1.0f);
 
 	// Camera Euler angles
-	float yaw = Maths::radians(-90.0f);
+	float yaw = 0.0f;
 	float pitch = 0.0f;
 	float roll = 0.0f;
 
@@ -29,6 +29,9 @@ public:
 	mat4 view;
 	mat4 projection;
 
+	//Quaternion camera
+	Quaternion orientation = Quaternion(pitch, yaw);
+
 	//constructor
 	Camera(const vec3 eye, const vec3 target);
 
@@ -36,4 +39,6 @@ public:
 	void calculateMatrices();
 
 	void calculateCameraVectors();
+
+	void quaternionCamera();
 };

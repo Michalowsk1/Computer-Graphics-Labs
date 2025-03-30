@@ -161,7 +161,7 @@ int main( void )
         
         // Calculate view and projection matrices
         camera.target = camera.eye + camera.front;
-        camera.calculateMatrices();
+        camera.quaternionCamera();
         
         // Activate shader
         glUseProgram(shaderID);
@@ -209,23 +209,29 @@ int main( void )
     return 0;
 }
 
-void keyboardInput(GLFWwindow *window)
+void keyboardInput(GLFWwindow* window)
 {
+    int cameraMoveSpeed;
+    if (glfwGetKey(window, GLFW_KEY_LEFT_SHIFT) == GLFW_PRESS)
+        cameraMoveSpeed = 10.0f;
+    else
+        cameraMoveSpeed = 5.0f;
+
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
         glfwSetWindowShouldClose(window, true);
-    
+
     // Move the camera using WSAD keys
     if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
-        camera.eye += 5.0f * deltaTime * camera.front;
+        camera.eye += cameraMoveSpeed * deltaTime * camera.front;
 
     if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
-        camera.eye -= 5.0f * deltaTime * camera.front;
+        camera.eye -= cameraMoveSpeed * deltaTime * camera.front;
 
     if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
-        camera.eye -= 5.0f * deltaTime * camera.right;
+        camera.eye -= cameraMoveSpeed * deltaTime * camera.right;
 
     if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
-        camera.eye += 5.0f * deltaTime * camera.right;
+        camera.eye += cameraMoveSpeed * deltaTime * camera.right;
 }
 
 void mouseInput(GLFWwindow *window)
